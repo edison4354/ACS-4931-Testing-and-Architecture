@@ -8,7 +8,7 @@ In this series of exercises, we practice various refactoring techniques. You may
 - [x]  Exercise 2: 'Inline Function' Technique
   - Study the file [legal_drinking_age.py](legal_drinking_age.py). Use `inline function` technique to improve readability of the code. 
   
-- [ ]  Exercise 3: 'Replace Temp with query' Technique
+- [x]  Exercise 3: 'Replace Temp with query' Technique
   - Study the file [get_price.py](get_price.py). Use `Replace Temp with query` technique to improve readability of the code. 
 
 - [ ]  Exercise 4: 'Introducing Explaining Variable' Technique
