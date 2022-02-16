@@ -1,25 +1,42 @@
-# by Kami Bigdely
-# Inline method.
-# TODO: Refactor this program to improve its readability.
-
 LEGAL_DRINKING_AGE = 18
+
+
 class Person:
+    """
+    A class to represent a person.
+
+    ...
+
+    Attributes
+    ----------
+    age : float
+        age of the person
+    """
+    
     def __init__(self, my_age):
+        """
+        Constructs all the necessary attributes for the person object.
+
+        Parameters
+        ----------
+            age : float
+                age of the person
+        """
         self.age = my_age
-        
+
+
 def enter_night_club(individual):
-    if older_than_18_year_old(individual.age):
+    '''
+    Prints if a person is over the LEGAL_DRINKING_AGE and allowed to enter.
+
+            Parameters:
+                    individual (obj): A person object
+    '''
+    if individual.age > LEGAL_DRINKING_AGE:
         print("Allowed to enter.")
     else:
         print("Enterance of minors is denited.")
 
-def older_than_18_year_old(age):
-    if age > LEGAL_DRINKING_AGE:
-        return True
-    else: 
-        return False
-    
-    
+
 person = Person(17.9)
 enter_night_club(person)
-        
